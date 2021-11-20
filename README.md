@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fancybox is to provide more detailed versions of
+The goal of fancybox is to create more detailed versions of
 ggplot2-boxplots, such as a boxplot with top N observations. These
 visualizations may provide better understanding of the data and both
 between- and within-group differences
