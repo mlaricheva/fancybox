@@ -24,7 +24,7 @@ test_that("NA and one category do not produce errors", {
 ### Testing the return object type
 test_that("Plot returns correct object", {
   bxplot<-top_n_boxplot(cars, mpg, am)
-  testthat::expect_is(bxplot, "ggplot")
+  testthat::expect_s3_class(bxplot, "ggplot")
 })
 
 ### Testing ggplot2 object components
