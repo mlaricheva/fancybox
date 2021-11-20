@@ -34,3 +34,6 @@ test_that("Plot details are correct", {
   testthat::expect_match(class(bxplot$layers[[1]]$geom)[[1]], "Boxplot")
   testthat::expect_match(class(bxplot$layers[[2]]$geom)[[1]], "Point")
 })
+
+### Removing cars object
+rm("cars")
