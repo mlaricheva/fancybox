@@ -1,6 +1,6 @@
 #' Show top N values of each group on the boxplot
 #'
-#' This function adds top N highest values of every group to the boxplot
+#' This function adds top N largest values of every group to the boxplot
 #' visualization
 #'
 #' @param dataset Dataframe or tibble with at least two columns
